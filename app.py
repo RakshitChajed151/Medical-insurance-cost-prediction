@@ -42,4 +42,4 @@ if st.button("Predict Insurance Cost"):
 
     prediction = model.predict(input_scaled)
 
-    st.success(f"Estimated Insurance Cost: ${prediction[0]:,.2f}")"Northeast")
+    st.success(f"Estimated Insurance Cost: ${prediction[0]:,.2f}")
